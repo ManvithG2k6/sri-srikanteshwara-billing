@@ -13,6 +13,11 @@ window.translations = {
     billHistory: "Bill History & Returns",
     reports: "Analytics & Reports",
     userManagement: "User Management",
+    categories: "Categories",
+    categoryManagement: "Category Management",
+    addCategory: "Add Category",
+    saveCategories: "Save Categories",
+    categoryName: "Category Name", // No Kannada name
     settings: "Store Settings",
     logout: "Logout",
     
@@ -40,7 +45,6 @@ window.translations = {
     grandTotal: "Grand Total",
     selectCustomer: "Select Customer",
     walkInCustomer: "Walk-in Customer",
-    points: "Points",
     balance: "Balance",
     payNow: "Pay & Print (F8)",
     holdBill: "Hold Draft (F10)",
@@ -71,7 +75,8 @@ window.translations = {
     // Price List
     priceListTitle: "Store Price Catalogue",
     printableList: "Print Price Sheet",
-    inStock: "In Stock",
+    inStock: "In Stock", 
+    clearAllHistory: "Clear All History",
     outOfStock: "Out of Stock",
     lowStock: "Low Stock"
   },
@@ -88,6 +93,12 @@ window.translations = {
     billHistory: "ಬಿಲ್ ಇತಿಹಾಸ & ರಿಟರ್ನ್ಸ್",
     reports: "ವರದಿಗಳು & ವಿಶ್ಲೇಷಣೆ",
     userManagement: "ಬಳಕೆದಾರರ ನಿರ್ವಹಣೆ",
+    categories: "ವರ್ಗಗಳು",
+    categoryManagement: "ವರ್ಗ ನಿರ್ವಹಣೆ",
+    addCategory: "ವರ್ಗ ಸೇರಿಸಿ",
+    saveCategories: "ವರ್ಗಗಳನ್ನು ಉಳಿಸಿ",
+    categoryName: "ವರ್ಗದ ಹೆಸರು",
+    categoryNameKannada: "ವರ್ಗದ ಹೆಸರು (ಕನ್ನಡ)",
     settings: "ಅಂಗಡಿ ಸಂರಚನೆಗಳು",
     logout: "ನಿರ್ಗಮಿಸು",
 
@@ -115,7 +126,6 @@ window.translations = {
     grandTotal: "ಒಟ್ಟು ಮೊತ್ತ",
     selectCustomer: "ಗ್ರಾಹಕರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
     walkInCustomer: "ಸಾಮಾನ್ಯ ಗ್ರಾಹಕ",
-    points: "ಪಾಯಿಂಟ್‌ಗಳು",
     balance: "ಬಾಕಿ",
     payNow: "ಪಾವತಿಸಿ & ಮುದ್ರಿಸಿ (F8)",
     holdBill: "ಡ್ರಾಫ್ಟ್ ಇರಿಸಿ (F10)",
@@ -146,7 +156,8 @@ window.translations = {
     // Price List
     priceListTitle: "ಅಂಗಡಿಯ ಬೆಲೆ ಪಟ್ಟಿ",
     printableList: "ಬೆಲೆ ಪಟ್ಟಿ ಪ್ರಿಂಟ್ ಮಾಡಿ",
-    inStock: "ದಾಸ್ತಾನಿನಲ್ಲಿದೆ",
+    inStock: "ದಾಸ್ತಾನಿನಲ್ಲಿದೆ", 
+    clearAllHistory: "ಎಲ್ಲಾ ಇತಿಹಾಸ ಅಳಿಸಿ",
     outOfStock: "ಖಾಲಿಯಾಗಿದೆ",
     lowStock: "ಕಡಿಮೆ ಇದೆ"
   }

@@ -1,14 +1,14 @@
 // Mock Dataset for Sri Srikanteshwara Provision and Oil Store
 
 window.initialCategories = [
-  { id: "cat-1", name: "Edible Oils & Ghee", nameKannada: "ಖಾದ್ಯ ತೈಲಗಳು ಮತ್ತು ತುಪ್ಪ" },
-  { id: "cat-2", name: "Rice & Grains", nameKannada: "ಅಕ್ಕಿ ಮತ್ತು ಧಾನ್ಯಗಳು" },
-  { id: "cat-3", name: "Dals & Pulses", nameKannada: "ಬೇಳೆಕಾಳುಗಳು" },
-  { id: "cat-4", name: "Flours & Rava", nameKannada: "ಹಿಟ್ಟು ಮತ್ತು ರವೆ" },
-  { id: "cat-5", name: "Spices & Masala", nameKannada: "ಮಸಾಲೆ ಮತ್ತು ಉಪ್ಪು" },
-  { id: "cat-6", name: "Dairy & Bakery", nameKannada: "ಹಾಲಿನ ಉತ್ಪನ್ನಗಳು" },
-  { id: "cat-7", name: "Tea, Coffee & Drinks", nameKannada: "ಟೀ, ಕಾಫಿ ಮತ್ತು ಪಾನೀಯಗಳು" },
-  { id: "cat-8", name: "Soaps & Cleaning", nameKannada: "ಸಾಬೂನು ಮತ್ತು ನೈರ್ಮಲ್ಯ" },
+  { id: "cat-1", name: "Edible Oils & Ghee" },
+  { id: "cat-2", name: "Rice & Grains" },
+  { id: "cat-3", name: "Dals & Pulses" },
+  { id: "cat-4", name: "Flours & Rava" },
+  { id: "cat-5", name: "Spices & Masala" },
+  { id: "cat-6", name: "Dairy & Bakery" },
+  { id: "cat-7", name: "Tea, Coffee & Drinks" },
+  { id: "cat-8", name: "Soaps & Cleaning" },
 ];
 
 window.initialSuppliers = [
@@ -22,8 +22,7 @@ window.initialProducts = [
   {
     id: "p-101",
     barcode: "8901234567890",
-    name: "Freedom Refined Sunflower Oil 1L Pouch",
-    nameKannada: "ಫ್ರೀಡಂ ಸೂರ್ಯಕಾಂತಿ ಎಣ್ಣೆ 1 ಲೀ",
+    name: "Freedom Refined Sunflower Oil 1L Pouch", // No Kannada name
     brand: "Freedom",
     category: "Edible Oils & Ghee",
     purchasePrice: 112,
@@ -39,8 +38,7 @@ window.initialProducts = [
   {
     id: "p-102",
     barcode: "8901234567891",
-    name: "Gemini Filtered Groundnut Oil 1L Bottle",
-    nameKannada: "ಜೆಮಿನಿ ಕಡಲೆಕಾಯಿ ಎಣ್ಣೆ 1 ಲೀ ಬಾಟಲ್",
+    name: "Gemini Filtered Groundnut Oil 1L Bottle", // No Kannada name
     brand: "Gemini",
     category: "Edible Oils & Ghee",
     purchasePrice: 155,
@@ -56,8 +54,7 @@ window.initialProducts = [
   {
     id: "p-103",
     barcode: "8901234567892",
-    name: "Gold Winner Sunflower Oil 1L Can",
-    nameKannada: "ಗೋಲ್ಡ್ ವಿನ್ನರ್ ಸೂರ್ಯಕಾಂತಿ ಎಣ್ಣೆ 1 ಲೀ",
+    name: "Gold Winner Sunflower Oil 1L Can", // No Kannada name
     brand: "Gold Winner",
     category: "Edible Oils & Ghee",
     purchasePrice: 120,
@@ -73,8 +70,7 @@ window.initialProducts = [
   {
     id: "p-104",
     barcode: "8901234567893",
-    name: "Pure Coconut Oil 1L Tin",
-    nameKannada: "ಶುದ್ಧ ತೆಂಗಿನ ಎಣ್ಣೆ 1 ಲೀ ಟಿನ್",
+    name: "Pure Coconut Oil 1L Tin", // No Kannada name
     brand: "Local Mill",
     category: "Edible Oils & Ghee",
     purchasePrice: 175,
@@ -90,8 +86,7 @@ window.initialProducts = [
   {
     id: "p-105",
     barcode: "8901234567894",
-    name: "Nandini Pure Cow Ghee 500g Pack",
-    nameKannada: "ನಂದಿನಿ ಶುದ್ಧ ಹಸುವಿನ ತುಪ್ಪ 500 ಗ್ರಾಂ",
+    name: "Nandini Pure Cow Ghee 500g Pack", // No Kannada name
     brand: "Nandini",
     category: "Edible Oils & Ghee",
     purchasePrice: 280,
@@ -109,8 +104,7 @@ window.initialProducts = [
   {
     id: "p-201",
     barcode: "8901000000001",
-    name: "Sona Masoori Steam Rice 26kg Bag",
-    nameKannada: "ಸೋನಾ ಮಸೂರಿ ಸ್ಟೀಮ್ ಅಕ್ಕಿ 26 ಕೆಜಿ ಚೀಲ",
+    name: "Sona Masoori Steam Rice 26kg Bag", // No Kannada name
     brand: "SS Special",
     category: "Rice & Grains",
     purchasePrice: 1250,
@@ -126,8 +120,7 @@ window.initialProducts = [
   {
     id: "p-202",
     barcode: "8901000000002",
-    name: "Bullet Raw Rice 1kg Loose",
-    nameKannada: "ಬುಲೆಟ್ ಹಸಿ ಅಕ್ಕಿ 1 ಕೆಜಿ (Loose)",
+    name: "Bullet Raw Rice 1kg Loose", // No Kannada name
     brand: "SS Mill",
     category: "Rice & Grains",
     purchasePrice: 48,
@@ -143,8 +136,7 @@ window.initialProducts = [
   {
     id: "p-203",
     barcode: "8901000000003",
-    name: "India Gate Basmati Rice Premium 5kg Pack",
-    nameKannada: "ಇಂಡಿಯಾ ಗೇಟ್ ಬಾಸುಮತಿ ಅಕ್ಕಿ 5 ಕೆಜಿ",
+    name: "India Gate Basmati Rice Premium 5kg Pack", // No Kannada name
     brand: "India Gate",
     category: "Rice & Grains",
     purchasePrice: 520,
@@ -162,8 +154,7 @@ window.initialProducts = [
   {
     id: "p-301",
     barcode: "8901111111111",
-    name: "Unpolished Toor Dal Premium 1kg",
-    nameKannada: "ಉತ್ತಮ ತೊಗರಿ ಬೇಳೆ 1 ಕೆಜಿ",
+    name: "Unpolished Toor Dal Premium 1kg", // No Kannada name
     brand: "SS Farm Fresh",
     category: "Dals & Pulses",
     purchasePrice: 135,
@@ -179,8 +170,7 @@ window.initialProducts = [
   {
     id: "p-302",
     barcode: "8901111111112",
-    name: "Yellow Moong Dal Split 1kg",
-    nameKannada: "ಹೆಸರು ಬೇಳೆ 1 ಕೆಜಿ",
+    name: "Yellow Moong Dal Split 1kg", // No Kannada name
     brand: "SS Farm Fresh",
     category: "Dals & Pulses",
     purchasePrice: 110,
@@ -196,8 +186,7 @@ window.initialProducts = [
   {
     id: "p-303",
     barcode: "8901111111113",
-    name: "Chana Dal Premium 1kg",
-    nameKannada: "ಕಡಲೆ ಬೇಳೆ 1 ಕೆಜಿ",
+    name: "Chana Dal Premium 1kg", // No Kannada name
     brand: "SS Farm Fresh",
     category: "Dals & Pulses",
     purchasePrice: 82,
@@ -215,8 +204,7 @@ window.initialProducts = [
   {
     id: "p-401",
     barcode: "8902222222221",
-    name: "Aashirvaad Shudh Chakki Atta 10kg Bag",
-    nameKannada: "ಆಶೀರ್ವಾದ್ ಗೋಧಿ ಹಿಟ್ಟು 10 ಕೆಜಿ",
+    name: "Aashirvaad Shudh Chakki Atta 10kg Bag", // No Kannada name
     brand: "Aashirvaad",
     category: "Flours & Rava",
     purchasePrice: 380,
@@ -232,8 +220,7 @@ window.initialProducts = [
   {
     id: "p-402",
     barcode: "8902222222222",
-    name: "Pure Ragi Flour 1kg Packet",
-    nameKannada: "ಶುದ್ಧ ರಾಗಿ ಹಿಟ್ಟು 1 ಕೆಜಿ",
+    name: "Pure Ragi Flour 1kg Packet", // No Kannada name
     brand: "SS Mill",
     category: "Flours & Rava",
     purchasePrice: 40,
@@ -249,8 +236,7 @@ window.initialProducts = [
   {
     id: "p-403",
     barcode: "8902222222223",
-    name: "Bansi Rava Premium 1kg",
-    nameKannada: "ಬನ್ಸಿ ರವೆ 1 ಕೆಜಿ",
+    name: "Bansi Rava Premium 1kg", // No Kannada name
     brand: "SS Mill",
     category: "Flours & Rava",
     purchasePrice: 44,
@@ -268,8 +254,7 @@ window.initialProducts = [
   {
     id: "p-501",
     barcode: "8903333333331",
-    name: "Tata Vacuum Evaporated Iodized Salt 1kg",
-    nameKannada: "ಟಾಟಾ ಉಪ್ಪು 1 ಕೆಜಿ",
+    name: "Tata Vacuum Evaporated Iodized Salt 1kg", // No Kannada name
     brand: "Tata",
     category: "Spices & Masala",
     purchasePrice: 22,
@@ -285,8 +270,7 @@ window.initialProducts = [
   {
     id: "p-502",
     barcode: "8903333333332",
-    name: "MTR Sambar Powder 200g Pack",
-    nameKannada: "ಎಂ‌ಟಿ‌ಆರ್ ಸಾಂಬಾರ್ ಪೌಡರ್ 200 ಗ್ರಾಂ",
+    name: "MTR Sambar Powder 200g Pack", // No Kannada name
     brand: "MTR",
     category: "Spices & Masala",
     purchasePrice: 65,
@@ -302,8 +286,7 @@ window.initialProducts = [
   {
     id: "p-503",
     barcode: "8903333333333",
-    name: "Everest Turmeric Powder 100g",
-    nameKannada: "ಎವರೆಸ್ಟ್ ಅರಿಶಿನ ಪುಡಿ 100 ಗ್ರಾಂ",
+    name: "Everest Turmeric Powder 100g", // No Kannada name
     brand: "Everest",
     category: "Spices & Masala",
     purchasePrice: 30,
@@ -321,8 +304,7 @@ window.initialProducts = [
   {
     id: "p-601",
     barcode: "8904444444441",
-    name: "Nandini Pasteurised Toned Milk 500ml",
-    nameKannada: "ನಂದಿನಿ ಹಲು 500 ಮಿಲೀ",
+    name: "Nandini Pasteurised Toned Milk 500ml", // No Kannada name
     brand: "Nandini",
     category: "Dairy & Bakery",
     purchasePrice: 22,
@@ -338,8 +320,7 @@ window.initialProducts = [
   {
     id: "p-602",
     barcode: "8904444444442",
-    name: "Nandini Curd 500g Pouch",
-    nameKannada: "ನಂದಿನಿ ಮೊಸರು 500 ಗ್ರಾಂ",
+    name: "Nandini Curd 500g Pouch", // No Kannada name
     brand: "Nandini",
     category: "Dairy & Bakery",
     purchasePrice: 28,
@@ -357,8 +338,7 @@ window.initialProducts = [
   {
     id: "p-801",
     barcode: "8905555555551",
-    name: "Mysore Sandal Soap 125g Single Bar",
-    nameKannada: "ಮೈಸೂರು ಸ್ಯಾಂಡಲ್ ಸಾಬೂನು 125 ಗ್ರಾಂ",
+    name: "Mysore Sandal Soap 125g Single Bar", // No Kannada name
     brand: "Mysore Sandal",
     category: "Soaps & Cleaning",
     purchasePrice: 62,
@@ -374,8 +354,7 @@ window.initialProducts = [
   {
     id: "p-802",
     barcode: "8905555555552",
-    name: "Vim Dishwash Bar Yellow 200g",
-    nameKannada: "ವಿಮ್ ಪಾತ್ರೆ ತೊಳೆಯುವ ಸಾಬೂನು 200 ಗ್ರಾಂ",
+    name: "Vim Dishwash Bar Yellow 200g", // No Kannada name
     brand: "Vim",
     category: "Soaps & Cleaning",
     purchasePrice: 18,
@@ -391,15 +370,15 @@ window.initialProducts = [
 ];
 
 window.initialCustomers = [
-  { id: "cust-101", name: "Ramesh Kumar", mobile: "9845112233", address: "Saraswathipuram, Mysuru", gstNo: "", outstandingBalance: 0, loyaltyPoints: 125, totalPurchases: 14500, createdAt: "2026-01-10" },
-  { id: "cust-102", name: "Shankara Gowda", mobile: "9900887766", address: "Kuvempunagar, Mysuru", gstNo: "29AABCU5544R1Z3", outstandingBalance: 450, loyaltyPoints: 340, totalPurchases: 38200, createdAt: "2026-02-15" },
-  { id: "cust-103", name: "Meenakshi Amma", mobile: "9740556677", address: "Gokulam 3rd Stage, Mysuru", gstNo: "", outstandingBalance: 0, loyaltyPoints: 85, totalPurchases: 9200, createdAt: "2026-03-01" },
+  { id: "cust-101", name: "Ramesh Kumar", mobile: "9845112233", address: "Saraswathipuram, Mysuru", gstNo: "", outstandingBalance: 0, totalPurchases: 14500, createdAt: "2026-01-10" },
+  { id: "cust-102", name: "Shankara Gowda", mobile: "9900887766", address: "Kuvempunagar, Mysuru", gstNo: "29AABCU5544R1Z3", outstandingBalance: 450, totalPurchases: 38200, createdAt: "2026-02-15" },
+  { id: "cust-103", name: "Meenakshi Amma", mobile: "9740556677", address: "Gokulam 3rd Stage, Mysuru", gstNo: "", outstandingBalance: 0, totalPurchases: 9200, createdAt: "2026-03-01" },
 ];
 
 window.initialUsers = [
-  { id: "user-1", username: "admin", name: "Srikanteshwara (Owner)", role: "Admin", pin: "1234", status: "Active", lastLogin: "2026-08-02 20:45" },
-  { id: "user-2", username: "manager", name: "Manjunath (Manager)", role: "Manager", pin: "1234", status: "Active", lastLogin: "2026-08-02 18:30" },
-  { id: "user-3", username: "cashier", name: "Basavaraj (Billing)", role: "Cashier", pin: "1234", status: "Active", lastLogin: "2026-08-02 20:40" },
+  { id: "user-1", username: "admin", name: "Srikanteshwara (Owner)", role: "Admin", pin: "1234", status: "Active", lastLogin: "2026-08-02 20:45", shift: "Morning", attendanceStatus: "Present", attendanceThisMonth: 22 },
+  { id: "user-2", username: "manager", name: "Manjunath (Manager)", role: "Manager", pin: "1234", status: "Active", lastLogin: "2026-08-02 18:30", shift: "Evening", attendanceStatus: "Present", attendanceThisMonth: 20 },
+  { id: "user-3", username: "cashier", name: "Basavaraj (Billing)", role: "Cashier", pin: "1234", status: "Active", lastLogin: "2026-08-02 20:40", shift: "Evening", attendanceStatus: "Absent", attendanceThisMonth: 18 },
 ];
 
 window.initialInvoices = [
@@ -438,7 +417,22 @@ window.initialStoreSettings = {
   receiptFooter: "Thank you for shopping at Sri Srikanteshwara! Visit Again.",
   currency: "₹",
   taxInclusive: true,
-  thermalWidth: "80mm",
+  thermalWidth: "80mm", // Legacy, replaced by paperSize
+  paperSize: "80mm", // Default paper size for printing
+  dashboardResetPin: "", // New setting for dashboard reset PIN
   autoPrint: true,
-  enableKannada: true,
+  shortcutBarEnabled: true,
+  shortcutBarPosition: { x: 300, y: 520 },
+  shortcutBarScale: 1,
+  posCartWidth: 420, // Default width for the POS cart panel
+  quickAccessTabs: [
+    { label: 'Oils', category: 'Edible Oils & Ghee' },
+    { label: 'Ghee', category: 'Edible Oils & Ghee' },
+    { label: 'Milk Products', category: 'Dairy & Bakery' },
+    { label: 'Rice', category: 'Rice & Grains' },
+    { label: 'Grains', category: 'Rice & Grains' },
+    { label: 'Dals', category: 'Dals & Pulses' },
+    { label: 'Flours', category: 'Flours & Rava' },
+    { label: 'Detergents', category: 'Soaps & Cleaning' }
+  ]
 };
